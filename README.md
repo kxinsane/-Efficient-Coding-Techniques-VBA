@@ -52,8 +52,11 @@ Checks for a valid email address, return True for valid email or False for inval
 #### 17 -Valid-Filename
 Checks Valid Filename with or without file extension, return True for valid Filename or False for invalid Filename
 
-#### 18 -Waiting-Or-Pausing
+#### 18 -Valid-Filepath
+Checks for a valid Filepath, return True for valid Filepath or False for invalid Filepath
+
+#### 19 -Waiting-Or-Pausing
 Ways to Wait or Pause for durations
 
-#### 19 -Ways-To-Find-Last-Row
+#### 20 -Ways-To-Find-Last-Row
 Different Ways to Find The Last Row Using VBA
