@@ -17,9 +17,7 @@ Option Explicit
 '	 boolToggle:= True or False (Hide or Show Columns)
 '==========================================================================================================
 Private Sub ToggleColumns(ByVal wsWorksheetName as Worksheet, ByVal iColIndex as Integer, ByVal iNoColumnsToHide as Integer, ByVal boolToggle as Boolean)
-	
 	With wsWorksheetName
 		.Columns(iColIndex).Resize(, iNoColumnsToHide).EntireColumn.Hidden = boolToggle
 	End With
-	
 End Sub
