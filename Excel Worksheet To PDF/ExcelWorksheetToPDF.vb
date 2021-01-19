@@ -38,23 +38,23 @@ Private Function ExcelWorksheetToPDF(ByVal wsName As Worksheet, _
 	Optional ByVal strSubject As String, _
 	Optional ByVal strKeyWords As String)
 
-		' // write Document Properties if required
-		On Error Resume Next
-		If boolIncludeDocumentProperties Then
-			ActiveWorkbook.BuiltinDocumentProperties("Title").Value = strDocumentTitle
-			ActiveWorkbook.BuiltinDocumentProperties("Author").Value = strAuthor
-			ActiveWorkbook.BuiltinDocumentProperties("Subject").Value = strSubject
-			ActiveWorkbook.BuiltinDocumentProperties("Keywords").Value = strKeyWords
-		End If
-		On Error GoTo 0
+	' // write Document Properties if required
+	On Error Resume Next
+	If boolIncludeDocumentProperties Then
+		ActiveWorkbook.BuiltinDocumentProperties("Title").Value = strDocumentTitle
+		ActiveWorkbook.BuiltinDocumentProperties("Author").Value = strAuthor
+		ActiveWorkbook.BuiltinDocumentProperties("Subject").Value = strSubject
+		ActiveWorkbook.BuiltinDocumentProperties("Keywords").Value = strKeyWords
+	End If
+	On Error GoTo 0
 
-		' // export Worksheet As PDF File
-		wsName.ExportAsFixedFormat _
-		Type:=xlTypePDF, _
-		Filename:=strFilepath, _
-		Quality:=xlQualityFormat, _
-		IncludeDocProperties:=boolIncludeDocumentProperties, _
-		IgnorePrintAreAs:=boolIgnorePrintAreAs, _
-		OpenAfterPublish:=boolOpenAfterPublish
+	' // export Worksheet As PDF File
+	wsName.ExportAsFixedFormat _
+	Type:=xlTypePDF, _
+	Filename:=strFilepath, _
+	Quality:=xlQualityFormat, _
+	IncludeDocProperties:=boolIncludeDocumentProperties, _
+	IgnorePrintAreAs:=boolIgnorePrintAreAs, _
+	OpenAfterPublish:=boolOpenAfterPublish
 
 End Function
