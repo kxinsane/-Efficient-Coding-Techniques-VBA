@@ -46,23 +46,26 @@ Search Worksheet for Criteria & return Range object which is Start Cell x Last R
 #### 15 -Sort-Visible-Worksheets
 Sorts visible Worksheets for Workbook: Ascending or Descending
 
-#### 16 -Toggle-Columns
+#### 16 -Toggle-AutoFilter
+Switches Autofilter On/Off for adjacent Header Range then Select default Cell
+
+#### 17 -Toggle-Columns
 Hides single Column or Range of adjoining Columns without selecting Worksheet
 
-#### 17 -Unmerge-All-Merged-Ranges
+#### 18 -Unmerge-All-Merged-Ranges
 Unmerge all merged Ranges for ActiveWorkbook, Worksheet UsedRange
 
-#### 18 -Valid-Email-Address
+#### 19 -Valid-Email-Address
 Checks for a valid email address, return True for valid email or False for invalid email
 
-#### 19 -Valid-Filename
+#### 20 -Valid-Filename
 Checks Valid Filename with or without file extension, return True for valid Filename or False for invalid Filename
 
-#### 20 -Valid-Filepath
+#### 21 -Valid-Filepath
 Checks for a valid Filepath, return True for valid Filepath or False for invalid Filepath
 
-#### 21 -Waiting-Or-Pausing
+#### 22 -Waiting-Or-Pausing
 Ways to Wait or Pause for durations
 
-#### 22 -Ways-To-Find-Last-Row
+#### 23 -Ways-To-Find-Last-Row
 Different Ways to Find The Last Row Using VBA
