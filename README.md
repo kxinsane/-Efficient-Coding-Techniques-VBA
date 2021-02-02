@@ -37,7 +37,7 @@ Basic methods to get a Column Letter & Row Number from both parts of a Range
 #### -Hide-Worksheets-By-Name
 Hides all of the Worksheets in a Workbook by Names
 
-### -Long-To-HTML
+#### -Long-To-HTML
 Converts Long Colour to HTML String
 
 #### -Removing-Row-Duplicates-In-Range-Or-Column
