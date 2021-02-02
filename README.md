@@ -4,6 +4,9 @@ Here are some of my fast, efficient Coding Techniques using Visual Basic for App
 #### -Adding-PC-User-Username
 Sometimes you need to use the person who is currently logged in part of a Filepath to Folder when using VBA
 
+### -Black-Or-White-Font
+Specifies whether White Font should be used
+
 #### -Build-Range
 Builds Range for a single Cell Reference X Columns by Y Rows, Range Object can be set or selected
 
@@ -33,6 +36,9 @@ Basic methods to get a Column Letter & Row Number from both parts of a Range
 
 #### -Hide-Worksheets-By-Name
 Hides all of the Worksheets in a Workbook by Names
+
+### -Long-To-HTML
+Converts Long Colour to HTML String
 
 #### -Removing-Row-Duplicates-In-Range-Or-Column
 Remove any duplicates (including/excluding Header value)
