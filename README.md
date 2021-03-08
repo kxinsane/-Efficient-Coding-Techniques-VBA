@@ -37,6 +37,9 @@ Basic methods to get a Column Letter & Row Number from both parts of a Range
 #### -Hide-Worksheets-By-Name
 Hides all of the Worksheets in a Workbook by Names
 
+#### -Insert-Checkboxes-in-Selection-Range
+Insert Checkboxes in Selection Range with Linked Cells
+
 #### -Long-To-HTML
 Converts Long Colour to HTML String
 
