@@ -10,6 +10,9 @@ Specifies whether White Font should be used
 #### -Build-Range
 Builds Range for a single Cell Reference X Columns by Y Rows, Range Object can be set or selected
 
+#### -Check-Size-Of-Each-Worksheet
+Get the Data Size of Each Worksheet in ActiveWorkbook
+
 #### -Color-Decimal-To-Color-Hexdecimal
 Converts Decimal Color Code (0 to 16777215) to Hexadecimal HTML color code (#000000 to #FFFFFF)
 
